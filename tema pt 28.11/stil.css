@@ -1,0 +1,31 @@
+head
+#cupon
+{
+position: fixed;
+top: 300px;
+left: 100px;
+}
+body {
+  background-color: tan;
+}
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height:300px;
+}
+.row {
+  content: "";
+  display: table;
+  clear: both;
+}
+#footer
+{
+  box-sizing: border-box;
+  padding: inherit;
+  text-align: center;
+  margin-left: 300px;
+}
